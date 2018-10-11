@@ -20,21 +20,22 @@ INSERT INTO spark_poc.Person (name, age) VALUES('Sardar Singh', 22);
 - Download the sample log file from the: https://github.com/cmtripathi/apache_spark_java/blob/master/apache_logs.log 
 
 - Now create a maven project with following dependencies:
+
 **Spark** - 
-spark-core_2.11
-spark-sql_2.11
+* spark-core_2.11
+* spark-sql_2.11
 
 **Spark uses some Hadoop dependency internally** - 
-hadoop-common
-hadoop-hdfs
-hadoop-yarn-api
-hadoop-mapreduce-client-core
+* hadoop-common
+* hadoop-hdfs
+* hadoop-yarn-api
+* hadoop-mapreduce-client-core
 
 **DB connector**
-mysql-connector-java
+* mysql-connector-java
 
 **Log4j**
-log4j
+* log4j
 
 The output of the **ReadDBService**
 ```
