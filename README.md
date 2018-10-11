@@ -24,7 +24,7 @@ INSERT INTO spark_poc.Person (name, age) VALUES('Sardar Singh', 22);
 spark-core_2.11
 spark-sql_2.11
 
-**Spark uses sone hadoop dependency internally** - 
+**Spark uses some Hadoop dependency internally** - 
 hadoop-common
 hadoop-hdfs
 hadoop-yarn-api
